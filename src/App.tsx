@@ -103,10 +103,10 @@ const App = () => {
           <li>
             <div className="social-icons">
               <a href="https://twitter.com/@NFTopiaWorld" target="_blank" rel="noreferrer">
-                <img className="nav-social" src="/icons/twitter.svg" alt="" />
+                <img className="nav-social" src="/icons/twitter.svg" alt="" />twitter
               </a>
               <a href="https://discord.gg/HDxBGxGQNq" target="_blank" rel="noreferrer">
-                <img className="nav-social" src="/icons/discord.svg" alt="" />
+                <img className="nav-social" src="/icons/discord.svg" alt="" />discord
               </a>
             </div>
           </li>
