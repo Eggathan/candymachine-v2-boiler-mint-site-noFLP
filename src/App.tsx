@@ -16,7 +16,10 @@ import {
 import ex1 from './img/Ex1.jpg';
 import ex2 from './img/ex2.jpg';
 import ex3 from './img/ex3.jpg';
+import mlogo from './img/mlogo.jpg';
 
+import 'react-aspect-ratio/aspect-ratio.css'
+import AspectRatio from 'react-aspect-ratio'; // Deprecated: if you are using React <= 15.6
 
 import {
   ConnectionProvider,
@@ -74,7 +77,8 @@ const App = () => {
         </div>
         <ul>
           <li>
-            <img className="mobile-nav-logo" src="/img/logo.jpg" alt="" />
+
+            <img className="mobile-nav-logo" src={'/img/logo.jpg'} width={50} height='auto'  alt="" />
           </li>
           <li>
             <a href="/#link1" onClick={toggleMenu}>
@@ -113,7 +117,7 @@ const App = () => {
       </div>
       <nav>
         <div className="nav-container">
-          <img className="nav-logo" src="/img/logo.jpg" alt="" />
+          <img className="nav-logo" src="/img/logo.jpg" height={125} alt="" />
           <a className="hide-800" href="/#link1">
             Mint
           </a>
@@ -176,8 +180,8 @@ const App = () => {
         <div id="link3" className="container card">
           <h1 className="pb-3">Some of our citizens</h1>
           <img src={ex1} height={'250rem'} width={'250rem'} style={{ marginRight: '2rem' }} alt={''}/>
-          <img src={ex2} height={250} width={250} style={{ marginRight: '2rem' }} alt={''}/>
-          <img src={ex3} height={250} width={250}  alt={''}/>
+          <img src={ex2} height={'250rem'} width={'250rem'} style={{ marginRight: '2rem' }} alt={''}/>
+          <img src={ex3} height={'250rem'} width={'250rem'}  alt={''}/>
 
         </div>
 
