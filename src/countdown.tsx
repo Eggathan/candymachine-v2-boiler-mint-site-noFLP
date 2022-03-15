@@ -1,7 +1,7 @@
 import { Paper } from '@material-ui/core';
 import Countdown from 'react-countdown';
 import { Theme, createStyles, makeStyles } from '@material-ui/core/styles';
-import { useState } from 'react';
+import React, { useState } from 'react';
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
