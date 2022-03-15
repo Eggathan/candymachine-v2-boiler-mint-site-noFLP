@@ -52,7 +52,7 @@ export const welcomeSettings: WelcomeSettings = {
 
   //Title and Description
   title: "Welcome!",
-  desc: "Connect your wallet and load in! Mint starts when the countdown is over!",
+  desc: "The Minting will begin when the countdown is over. In the mean time, get advertising!",
 
   // Countdown Timer
   countdownEnable: true,
