@@ -52,11 +52,11 @@ export const welcomeSettings: WelcomeSettings = {
 
   //Title and Description
   title: "Welcome!",
-  desc: "Connect your wallet and load in! Whitelist mint starts soon!",
+  desc: "Connect your wallet and load in! Mint starts when the countdown is over!",
 
   // Countdown Timer
-  countdownEnable: false,
-  countdownTo: date("2 Jan 2022 00:00:00 GMT"),
+  countdownEnable: true,
+  countdownTo: date("20 Mar 2022 20:00:00 GMT"),
   //Example date below
   // date('29 2021 00:00:00 GMT')
 
@@ -97,7 +97,7 @@ export class MintWelcomeCustomHTML extends React.Component {
 
 export const whitelistSettings: WhitelistSettings = {
   //If you want to use the whitelist feature enable it.
-  enabled: true,
+  enabled: false,
 
   startDate: date("1 Jan 2022 00:00:00 GMT"),
   endDate: date("8 Jan 2022 00:00:00 GMT"),
@@ -138,15 +138,15 @@ export class MintWhitelistCustomHTML extends React.Component {
 export const publicSaleSettings: PublicSaleSettings = {
   //start date and end date must match your Candy Machine Config for public launch!
 
-  startDate: date("7 Jan 2022 00:00:00 GMT"),
+  startDate: date("20 Mar 2022 20:00:00 GMT"),
   endDate: undefined,
-  countdown: false,
+  countdown: true,
   //Example date below
   // date('29 2021 00:00:00 GMT')
 
   //Title and Description
-  title: "Sale not live",
-  desc: "Not currently minting",
+  title: "Sale is now live!",
+  desc: "You can connect your wallet and mint your own Sol Citizen!",
 
   //Enable Custom HTML
   enableCustomHTML: false,
