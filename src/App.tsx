@@ -16,10 +16,10 @@ import {
 import ex1 from './img/Ex1.jpg';
 import ex2 from './img/ex2.jpg';
 import ex3 from './img/ex3.jpg';
-import mlogo from './img/mlogo.jpg';
+
 
 import 'react-aspect-ratio/aspect-ratio.css'
-import AspectRatio from 'react-aspect-ratio'; // Deprecated: if you are using React <= 15.6
+
 
 import {
   ConnectionProvider,
