@@ -52,7 +52,7 @@ export const welcomeSettings: WelcomeSettings = {
 
   //Title and Description
   title: "Welcome!",
-  desc: "The Minting will begin when the countdown is over. In the mean time, get advertising!",
+  desc: "The Minting will begin when the countdown is over. In the meantime, get advertising!",
 
   // Countdown Timer
   countdownEnable: true,
