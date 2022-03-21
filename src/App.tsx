@@ -96,11 +96,6 @@ const App = () => {
             </a>
           </li>
           <li>
-            <a href="https://twitter.com/@Noxilous" onClick={toggleMenu}>
-              Artist's Profile
-            </a>
-          </li>
-          <li>
             <div className="social-icons">
               <a href="https://twitter.com/@NFTopiaWorld" target="_blank" rel="noreferrer">
                 <img className="nav-social" src="/icons/twitter.svg" alt="" />twitter
@@ -126,9 +121,6 @@ const App = () => {
           </a>
           <a className="hide-800" href="/#link3">
             FAQs
-          </a>
-          <a className="hide-800" href="https://twitter.com/@Noxilous">
-            Artist's Profile
           </a>
           <div className="social-icons hide-800">
             <a href="https://twitter.com/@NFTopiaWorld" target="_blank" rel="noreferrer">
